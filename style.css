@@ -48,12 +48,12 @@ section {
     background-color: #F2F2F2;
     border-radius: 15px 15px 15px 15px;
     margin-bottom: 30px;
-    width: 65%;
+    width: 95%;
     padding-right: 10px;
     padding-left: 30px;
 }
 
-.categorie-1, .categorie-A, .categorie-B, .categorie-C {
+.categorie-1, .categorie-A, .categorie-B, .categorie-C, .categorie-D, .categorie-S {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
