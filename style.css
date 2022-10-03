@@ -1,0 +1,88 @@
+* body {
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 19px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 150px;
+    padding-top: 10px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 310px;
+}
+
+.nav span {
+    display: contents;
+    padding-top: 43px;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+    padding-top: 25px;
+}
+
+/*HEADER*/
+/*MAIN*/
+
+.site-main {
+    margin-right: 31px;
+    margin-left: 31px;
+}
+
+section {
+    background-color: #F2F2F2;
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 30px;
+    width: 65%;
+    padding-right: 10px;
+    padding-left: 30px;
+}
+
+.categorie-1, .categorie-A, .categorie-B, .categorie-C {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image {
+    height: 110px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 210px;
+}
+
+.ctg {
+    background-color: white;
+    border-radius: 20px;
+    padding: 4px;
+    margin-bottom: 25px;
+}
+
+.ctg p {
+    font-weight: bold;
+    margin-left: 14px;
+}
+
+sub {
+    font-weight: normal;
+}
+
+.ctg a {
+    color: black;
+    text-decoration: none;
+}
