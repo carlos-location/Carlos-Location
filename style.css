@@ -4,37 +4,57 @@
     margin: 0 auto;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 19px;
-    margin-right: 60px;
-    margin-bottom: 30px;
+.menu {
+    background: rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+}
+.menu ul {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
 }
 
-.logo {
-    width: 150px;
-    padding-top: 10px;
+.menu ul li {
+    width: 230px;
+    margin: 28px;
+    padding: 15px;
 }
 
-.nav {
-    display: flex;
-    justify-content: space-between;
-    width: 310px;
-}
-
-.nav span {
-    display: contents;
-    padding-top: 43px;
-}
-
-.nav a {
-    color: black;
+.menu ul li a {
     text-decoration: none;
-    margin-top: 20px;
-    padding-top: 25px;
+    color: #fff;
 }
+
+.active, .menu ul li:hover {
+    background: rgb(64, 130, 246);
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.sub, .menu ul li:hover {
+    background: rgb(64, 130, 246);
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.menu .fa {
+    margin-right: 20px;
+}
+
+.sub-menu {
+    display: none;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    padding-top: 25px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+}
+
 
 /*HEADER*/
 /*MAIN*/
@@ -85,4 +105,10 @@ sub {
 .ctg a {
     color: black;
     text-decoration: none;
+}
+
+.ctg:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.5s;
 }
