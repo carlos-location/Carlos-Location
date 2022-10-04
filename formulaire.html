@@ -4,11 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
     <title>Formulaire de reservation</title>
 </head>
 <body>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfgu4lHogXWZdTfwP-Bv-4TdkBqx-EgjuzxS6rysVEyXBDfKg/viewform?embedded=true" width="100%" height="1213" frameborder="0" marginheight="0" marginwidth="0">
-        <form action="https://formsubmit.co/iyashinehicham@gmail.com" method="POST" enctype="multipart/form-data">
-       </form> Chargement…</iframe>  
+    <form action="https://formsubmit.co/idaroussihicham@gmail.com" method="POST" enctype="multipart/form-data">
+        <h1>Demande de reservation - La société vous contactera en fonction de la disponibilité du véhicule</h1>
+        <div class="separation"></div>
+        <div class="corps-formulaire">
+            <div>
+                <input type="hidden" name="_captcha" value="false">
+            </div>
+            <div>
+                <input type="hidden" name="_template" value="box">
+            </div>
+            <div>
+                <input type="hidden" name="_subject" value="Demande de reservation">
+            </div>
+            <div class="gauche">
+                <div class="groupe">
+                    <label>Nom / Prénom</label>
+                    <input type="text" name="Nom / Prénom" placeholder="Votre Nom / Prénom" required="">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="groupe">
+                    <label>Email</label>
+                    <input type="email" name="Email" placeholder="Votre adresse email" required="">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="groupe">
+                    <label>Adresse</label>
+                    <input type="text" name="Adresse" placeholder="Votre adresse" required="">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="groupe">
+                    <label>Code postal / Ville</label>
+                    <input type="text" name="Code postal / Ville" placeholder="Votre Code postal / Ville" required="">
+                    <i class="fa-solid fa-location-arrow"></i>
+                </div>
+                <div class="groupe">
+                    <label>Téléphone</label>
+                    <input type="text" name="numéro de Téléphone" placeholder="Votre numéro de téléphone" required="">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="groupe">
+                    <label>Date de départ</label>
+                    <input type="text" name="Date de départ" placeholder="JJ / MM / YYYY" required="">
+                    <i class="fa-solid fa-car"></i>
+                </div>
+                <div class="groupe">
+                    <label>Date de retour</label>
+                    <input type="text" name="Date de retour" placeholder="JJ / MM / YYYY" required="">
+                    <i class="fa-solid fa-car"></i>
+                </div>
+                <div class="groupe">
+                    <p>
+                        <label>Age du conducteur</label><br>
+                        <input type="checkbox" name="Age du conducteur" value="18 - 25 ans">18 - 25 ans <br>
+                        <input type="checkbox" name="Age du conducteur" value="25 - 30 ans">25 - 30 ans <br>
+                        <input type="checkbox" name="Age du conducteur" value="30 - 70 ans">30 - 70 ans <br>
+                    </p>
+                </div>
+                <div class="groupe">
+                    <label>Type de voiture (En fonction des disponibilité des véhicule sur le site)</label>
+                    <select name="voiture">
+                        <option value="">choisir</option>
+                        <option value="">Kangoo</option>
+                        <option value="">Partner</option>
+                        <option value="">108</option>
+                        <option value="">208</option>
+                        <option value="">Duster</option>
+                        <option value="">Boxer</option>
+                    </select>
+                </div>
+                <div class="groupe">
+                    <label>N° d'immatriculation</label>
+                    <input type="text" name="immatriculation" placeholder="immatriculation" required min="9">
+                    <i class="fa-solid fa-car"></i>
+                </div>
+            </div>
+            
+            <div class="place">
+                <div class="photo">
+                    <label>Permis de conduire (Recto/Verso)</label>
+                    <input type="file" name="Photo_1" accept="image/png, image/jpeg" required="">
+                </div>
+                <div class="photo">
+                    <input type="file" name="Photo_2" accept="image/png, image/jpeg" required="">
+                </div>
+            </div>
+        </div>
+            
+        <div class="pied-formulaire" align="center">
+            <button type="submit">Envoyer le message</button>
+        </div>
+   </form>
 </body>
 </html>
