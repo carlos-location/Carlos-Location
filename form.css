@@ -156,3 +156,19 @@ form .pied-formulaire button {
 form .pied-formulaire button:hover {
     transform: scale(1.05);
 }
+
+button {
+    margin-top: 15px;
+    background-color: #747cdf;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+button:hover {
+    transform: scale(1.05);
+}
