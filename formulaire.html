@@ -47,14 +47,16 @@
                     <input type="text" name="numéro de Téléphone" placeholder="Votre numéro de téléphone" required>
                     <i class="fa-solid fa-phone"></i>
                 </div>
+
+                
                 <div class="groupe">
                     <label>Date de départ</label>
-                    <input type="datetime-local" name="Date de départ" value="15-10-2022T10:30" required="">
+                    <input type="datetime-local" name="Date de départ (AAAA / MM / JJ)" value="2022-10-15T10:30" required="">
                     <i class="fa-solid fa-car"></i>
                 </div>
                 <div class="groupe">
                     <label>Date de retour</label>
-                    <input type="datetime-local" name="Date de retour" value="2022-11-15T10:30" required="">
+                    <input type="datetime-local" name="Date de retour (AAAA / MM / JJ)" value="2022-11-15T10:30" required="">
                     <i class="fa-solid fa-car"></i>
                 </div>
                 <div class="groupe">
@@ -66,8 +68,25 @@
                     </p>
                 </div>
                 <div class="groupe">
-                    <input type="hidden" name="Voiture" value="Renault Kangoo" required>
-                    <i class="fa-solid fa-location-arrow"></i>
+                    <p>
+                        <label for="pays">Dans quel pays habitez-vous ?</label><br />
+                        <select name="pays" id="pays">
+                            <optgroup label="Europe">
+                                <option value="france">France</option>
+                                <option value="espagne">Espagne</option>
+                                <option value="italie">Italie</option>
+                                <option value="royaume-uni">Royaume-Uni</option>
+                            </optgroup>
+                            <optgroup label="Amérique">
+                                <option value="canada">Canada</option>
+                                <option value="etats-unis">Etats-Unis</option>
+                            </optgroup>
+                            <optgroup label="Asie">
+                                <option value="chine">Chine</option>
+                                <option value="japon">Japon</option>
+                            </optgroup>
+                        </select>
+                    </p>
                 </div>
             </div>
             
