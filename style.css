@@ -2,7 +2,9 @@
     font-family: "Raleway", sans-serif;
     width: 100%;
     margin: 0 auto;
-    background: tan;
+    background-image: url(img/fond.webp);
+    background-size: cover;
+    background-position: center;
 }
 
 .menu {
@@ -71,7 +73,6 @@
 }
 
 section {
-    background-color: #F2F2F2;
     border-radius: 15px 15px 15px 15px;
     margin-bottom: 30px;
     width: 95%;
@@ -112,4 +113,44 @@ sub {
     color: black;
     text-decoration: none;
     cursor: default;
+}
+.separation {
+    width: 100%;
+    height: 4px;
+    background-color: beige;
+}
+.titre {
+    color: beige;
+    width: 617px;
+    background: linear-gradient(45deg, black, transparent);
+}
+h2, h4 {
+    color: beige;
+    width: 376px;
+    background: linear-gradient(45deg, black, transparent);
+}
+
+/*FOOTER*/
+footer {
+    background: wheat;
+}
+
+#info {
+    display: flex;
+    justify-content: space-around;
+}
+.titre4 {
+    margin-right: 60px
+}
+h4 {
+    font-size: initial;
+    margin-left: 40px;
+}
+footer #info .titre4 ul li {
+    list-style-type: none;
+    line-height: 1.8em;
+}
+footer #info .titre4 ul li a {
+    text-decoration: none;
+    color: black;
 }
