@@ -9,6 +9,10 @@
     background: rgb(0, 0, 0);
     text-align: center;
     width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 .menu ul {
     display: inline-flex;
@@ -63,6 +67,7 @@
 .site-main {
     margin-right: 31px;
     margin-left: 31px;
+    padding-top: 230px;
 }
 
 section {
@@ -106,10 +111,5 @@ sub {
 .ctg a {
     color: black;
     text-decoration: none;
-}
-
-.ctg:hover {
-    cursor: pointer;
-    transform: scale(1.05);
-    transition: transform 0.5s;
+    cursor: default;
 }
