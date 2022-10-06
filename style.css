@@ -129,13 +129,14 @@ h2 {
     width: 376px;
     background: linear-gradient(45deg, black, transparent);
 }
+
+
+/*FOOTER*/
 h4 {
     color: beige;
     width: 100%;
     background: linear-gradient(45deg, black, transparent);
 }
-
-/*FOOTER*/
 footer {
     background: wheat;
 }
