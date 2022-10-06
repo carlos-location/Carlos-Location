@@ -147,6 +147,9 @@ footer {
 .titre4 {
     margin-right: 60px
 }
+.fa-solid {
+    margin-right: 10px;
+}
 h4 {
     font-size: initial;
     margin-left: 40px;
@@ -162,6 +165,7 @@ footer #info .titre4 ul li p {
 footer #info .titre4 ul li a {
     text-decoration: none;
     color: black;
+    font-style: italic;
 }
 
 /*Media Queries*/
