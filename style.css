@@ -155,6 +155,10 @@ footer #info .titre4 ul li {
     list-style-type: none;
     line-height: 1.8em;
 }
+footer #info .titre4 ul li p {
+    font-weight: bold;
+    font-style: italic;
+}
 footer #info .titre4 ul li a {
     text-decoration: none;
     color: black;
@@ -211,11 +215,13 @@ footer #info .titre4 ul li a {
         width: 170%;
     }
     .separation {
-        width: 185%;
+        width: 170%;
+        width: 600px;
     }
     footer {
         width: 150%;
         margin: auto;
+        width: 688px;
     }
     footer #info {
         width: 100%;
@@ -237,5 +243,9 @@ footer #info .titre4 ul li a {
     footer #info .titre4 h4 ul li{
         width: 100%;
         margin: 0 auto;
+    }
+    .categorie-1, .categorie-A, .categorie-B, .categorie-C, .categorie-D, .categorie-S {
+        width: 100%;
+        width: 560px;
     }
 }
