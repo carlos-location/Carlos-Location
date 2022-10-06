@@ -204,18 +204,14 @@ footer #info .titre4 ul li a {
 }
 
 @media screen and (max-width:425px) {
-    .menu ul {
-        display: flex;
-        justify-content: space-between;
-    }
     .logo2 {
         display: none;
     }
     section {
-        width: 150%;
+        width: 170%;
     }
     .separation {
-        width: 150%;
+        width: 185%;
     }
     footer {
         width: 150%;
