@@ -142,7 +142,8 @@ footer {
 }
 
 #info {
-    display: flex;
+    display: block;
+    margin-left: -40px;
     justify-content: space-around;
 }
 .titre4 {
@@ -154,6 +155,9 @@ footer {
 h4 {
     font-size: initial;
     margin-left: 40px;
+}
+footer #info .titre4 ul {
+    margin-left: 20px;
 }
 footer #info .titre4 ul li {
     list-style-type: none;
